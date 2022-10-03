@@ -1,0 +1,40 @@
+.caja {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rojo {
+    background: red;
+}
+
+.naranja {
+    background: orange;
+}
+
+.amarillo {
+    background: yellow;
+}
+
+.verde {
+    background: green;
+}
+
+.azul {
+    background: blue;
+}
+
+#sct-contenedor {
+    /* acomoda los elementos hijos segun eje secundario*/
+    align-items: center;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: por default es row y no es necesario usarla */
+    flex-direction: row;
+    /* acomoda por eje principal */
+    justify-content: space-evenly;
+}
